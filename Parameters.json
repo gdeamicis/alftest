@@ -1,0 +1,38 @@
+{
+    "entryPoint": "main",
+    "exportEntryPoint": false,
+    "specificationSuffix": ".spec.js",
+    "requireJsConfigName": "require.config.js",
+    "devServer": {
+        "port": 8000,
+        "documentRoot": "Public"
+    },
+    "paths": {
+        "source": "Library",
+        "specs": "Specifications",
+        "fixtures": "Fixtures",
+        "styles": "Styles",
+        "build": "Temporary",
+        "distribution": "Package",
+        "assets": "Assets",
+        "www": "Public",
+        "logs": "Logs",
+        "vendor": "Vendor",
+        "bower": "bower_components",
+        "node": "node_modules"
+    },
+    "less": {
+        "modifyVars": {
+        }
+    },
+    "autoprefixer": {
+        "browsers": [
+            "> 1%",
+            "last 2 versions",
+            "Firefox ESR",
+            "Opera 12.1",
+            "ie 9",
+            "ie 10"
+        ]
+    }
+}
